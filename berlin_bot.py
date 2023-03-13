@@ -60,7 +60,7 @@ class BerlinBot:
     @staticmethod
     def enter_form(driver: webdriver.Chrome):
         logging.info("Fill out form")
-        # select china
+        # select Nigeria
         s = Select(driver.find_element(By.ID, 'xi-sel-400'))
         s.select_by_visible_text("Nigeria")
         # eine person
@@ -79,12 +79,9 @@ class BerlinBot:
         driver.find_element(By.XPATH, '//*[@id="inner-232-0-1"]/div/div[3]/label/p').click()
         time.sleep(2)
 
-        # b/c of stufy
+        # type
         driver.find_element(By.XPATH, '//*[@id="inner-232-0-1"]/div/div[4]/div/div[11]/label').click()
         time.sleep(4)
-
-        #  driver.find_element(By.XPATH, '//*[@id="inner-479-0-2"]/div/div[2]/div/div[5]/label').click()
-        # time.sleep(4)
 
         # submit form
         driver.find_element(By.ID, 'applicationForm:managedForm:proceed').click()
