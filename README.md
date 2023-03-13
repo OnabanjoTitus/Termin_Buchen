@@ -25,4 +25,3 @@ You can read the [selenium docs](https://selenium-python.readthedocs.io/locating
 
 AGPL-3.0
 # Termin_Buchen
-# Termin_Buchen
