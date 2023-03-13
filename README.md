@@ -12,7 +12,6 @@ A [Selenium](https://www.selenium.dev/) bot for obtaining an appointment at the 
 
 ## Configuration and Support
 
-I do not give any kind of support and/or advice on how to configure this bot as I wrote this for a friend of mine and thankfully she was able to get an appointment with this bot.
 You can read the [selenium docs](https://selenium-python.readthedocs.io/locating-elements.html#) and adjust `berlin_bot.py` in order to configure it according to your needs.
 
 ## License
